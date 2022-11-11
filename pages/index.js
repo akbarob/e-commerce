@@ -1,7 +1,7 @@
 import React from "react";
-import FooterBanner from "../Components/FooterBanner";
-import HeroBanner from "../Components/HeroBanner";
-import Product from "../Components/Product";
+import FooterBanner from "../components/FooterBanner";
+import HeroBanner from "../components/HeroBanner";
+import Product from "../components/Product";
 
 import { client } from "../lib/client";
 
