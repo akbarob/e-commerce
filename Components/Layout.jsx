@@ -4,15 +4,15 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 const Layout = ({ children }) => {
   return (
-    <div className="">
+    <div className="w-full">
       <Head>
         <title>Badak Store</title>
       </Head>
-      <header>
+      <header className="sticky top-0 ">
         <Navbar />
       </header>
       <main className="">{children}</main>
-      <footer>
+      <footer className="">
         <Footer />
       </footer>
     </div>

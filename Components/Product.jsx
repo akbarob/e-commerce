@@ -7,12 +7,12 @@ const Product = ({ product: { image, name, slug, price } }) => {
     console.log(name);
   }
   return (
-    <div>
+    <div className="my-10">
       <Link href={`/product/${slug.current}`}>
-        <div className="cursor-pointer hover:scale-110 transition-all ease-in-out  mx-4">
+        <div className=" w-[150px] h-[150px] md:w-[250px] md:h-[250px] cursor-pointer hover:scale-110 transition-all ease-in-out ">
           <img
             src={urlFor(image && image[0])}
-            className="w-[250px] h-[250px]  bg-gray-300 rounded-lg "
+            className=" w-full bg-gray-300 rounded-lg "
           />
           <p className="capitalize">{name}</p>
           <p>
