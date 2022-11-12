@@ -1,5 +1,5 @@
 import React from "react";
-import FooterBanner from "../components/FooterBanner";
+import FooterBanner from "../Components/FooterBanner";
 import HeroBanner from "../Components/HeroBanner";
 import Product from "../Components/Product";
 

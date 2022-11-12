@@ -1,5 +1,5 @@
 import { Toaster } from "react-hot-toast";
-import Layout from "../components/Layout";
+import Layout from "../Components/Layout";
 import { StateContext } from "../context/stateContext";
 
 import "../styles/globals.css";

@@ -44,7 +44,7 @@ const FooterBanner = ({
         <img
           alt="footer-img"
           src={urlFor(image)}
-          className="absolute -top-[20%] md:-top-[25%]  left-[25%] w-[250px] h-[250px] md:w-[450px] md:h-[450px]"
+          className="absolute -top-[21%] md:-top-[25%]  left-[25%] w-[250px] h-[250px] md:w-[450px] md:h-[450px]"
         />
       </div>
     </div>
