@@ -1,6 +1,6 @@
 import { Toaster } from "react-hot-toast";
-import Layout from "../components/Layout";
 import { StateContext } from "../context/stateContext";
+import Layout from "../components/Layout";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
